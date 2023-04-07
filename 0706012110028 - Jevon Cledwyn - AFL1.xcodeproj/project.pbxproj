@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04968E0729DDE0A900ADF55C /* menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04968E0629DDE0A900ADF55C /* menu.swift */; };
+		04968E0929DDE0C700ADF55C /* cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04968E0829DDE0C700ADF55C /* cart.swift */; };
+		04968E0B29DDE10000ADF55C /* shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04968E0A29DDE10000ADF55C /* shop.swift */; };
+		04968E0F29DFA48700ADF55C /* shoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04968E0E29DFA48700ADF55C /* shoppingCart.swift */; };
 		04D45A9F29ADA0D500679D53 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D45A9E29ADA0D500679D53 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04968E0629DDE0A900ADF55C /* menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menu.swift; sourceTree = "<group>"; };
+		04968E0829DDE0C700ADF55C /* cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cart.swift; sourceTree = "<group>"; };
+		04968E0A29DDE10000ADF55C /* shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shop.swift; sourceTree = "<group>"; };
+		04968E0E29DFA48700ADF55C /* shoppingCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoppingCart.swift; sourceTree = "<group>"; };
 		04D45A9B29ADA0D500679D53 /* 0706012110028 - Jevon Cledwyn - AFL1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "0706012110028 - Jevon Cledwyn - AFL1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D45A9E29ADA0D500679D53 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				04D45A9E29ADA0D500679D53 /* main.swift */,
+				04968E0629DDE0A900ADF55C /* menu.swift */,
+				04968E0829DDE0C700ADF55C /* cart.swift */,
+				04968E0A29DDE10000ADF55C /* shop.swift */,
+				04968E0E29DFA48700ADF55C /* shoppingCart.swift */,
 			);
 			path = "0706012110028 - Jevon Cledwyn - AFL1";
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04968E0F29DFA48700ADF55C /* shoppingCart.swift in Sources */,
+				04968E0929DDE0C700ADF55C /* cart.swift in Sources */,
+				04968E0729DDE0A900ADF55C /* menu.swift in Sources */,
 				04D45A9F29ADA0D500679D53 /* main.swift in Sources */,
+				04968E0B29DDE10000ADF55C /* shop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
